@@ -1,0 +1,23 @@
+
+.nav>li>a:hover {
+	background:none !important;
+}
+.hero {
+	height: 900px;
+	width: 100vw;
+	background: url("../img/img.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.navi_bg {
+  background-color: rgba(86, 83, 76, 0.529);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1600px;
+  height: 70px;
+  z-index: 269;
+}
+
+
+
