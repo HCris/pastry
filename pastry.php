@@ -19,7 +19,11 @@
 						</ul>
 					</div>
 				<div class="container">
-					<p>drkuyjfui</p>
+					<h1 class="title">Pastry with love</h1><br>
+					<img class="line" src="img/line.png" alt="">
+					<img class="dashed_line" src="img/dashed line.png" alt="">
+					<p class="message">After downloading everything is ready to start.The folder you have downloaded contains both core bootstrap files and our framework files. Everything is linked and ready to use. Just open the file index.html and start to create some amazing thing!</p>
+
 				</div>
 				</header>
 			</div>
