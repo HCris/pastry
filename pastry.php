@@ -8,7 +8,7 @@
 			'<link href="https://fonts.googleapis.com/css?family=Alegreya|Bellefair" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">'
 		?>
-	 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">>
+	 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	</head>
 	<body>
 		<!-- section 1-->
@@ -24,7 +24,6 @@
 							</ul>
 						</div>
 					</div>
-<<<<<<< HEAD
 				</div>
 
 				<div class="row" style="margin-right:0">
@@ -38,11 +37,6 @@
 							<button class="btn ">our meneu</button>
 						</div>
 					</div>
-=======
-				<div class="container">
-					<p>drkuyjfui</p>
->>>>>>> parent of 75842fd... frwget
-				</div>
 
 				<div class="divider">
 					<img src="img/divider.png">
@@ -138,20 +132,56 @@
 							<i class="fa fa-star-o" aria-hidden="true"></i>
 						</div>
 						<div class="ready">
-						jdc;oiwd[]
+							<h3>READY IN</h3>
+								<h1>40</h1>
+								<h4>mins</h4>
+							</div>
+							<div class="vektor">
+								<img src="img/section3/Vektor.png" alt="qwd">
+							</div>
+							<div class="slaid">
+								<div class="arrow_left">
+									<img src="img/section3/arrow_left.png" alt="">
+								</div>
+								<div class="img_slaid">
+									<img src="img/section3/Ellipse 4 Kopie 2.png" alt="">
+									<img src="img/section3/Ellipse 4 Kopie.png" alt="">
+									<img src="img/section3/Ellipse 4.png" alt="">
+								</div>
+								<div class="buline">
+									<i class="fa fa-circle-o" aria-hidden="true"></i>
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<i class="fa fa-circle" aria-hidden="true"></i>
+								</div>
+								<div class="row_right">
+									<img src="img/section3/arrow_right.png" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+<!--end section3-->
 
+<!--section4-->
 		<section class="section4">
 			<div class="row" style="margin-right:0">
-				<div class="col">
-						<p>drkuyjfui</p>
+				<div class="col col-xs-12 col-md-4 col-xs-offset-2 ">
+						<div class="breakfast">
+							<h1>Breakfast</h1>
+							<h3>7 AM BREAKFAST WERE OPEN!</h3>
+							<h3>Full Breakfast</h3>
+							<h3>Toast & jam</h3>
+						</div>
+				</div>
+				<div class="col col-xs-12 col-md-6">
 				</div>
 			</div>
 		</section>
+<!--section4-->
 
 		<footer class="section5">
 			<div class="row" style="margin-right:0">
