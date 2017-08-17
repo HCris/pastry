@@ -1,12 +1,20 @@
+body {
+	margin: 0;
+	padding: 0;
+}
 
 header{
-	background: url("../img/img.jpg") no-repeat center top/cover;
-	height: 1200px;
+	background: url("../img/img.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 800px;
+	position: relative;
 }
 
 .top{
-	margin-top: 340px;
+	margin-top: 150px;
 }
+<<<<<<< HEAD
 .title {
 	font-size: 100px;
 	font-family: "PlayfairDisplay";
@@ -16,79 +24,455 @@ header{
 	text-shadow: 0px 1px 0px rgba(61, 48, 41, 0.004);
 }
 .line {
+	margin-top: 74px;
 	background-color: rgb(255, 255, 255);
 	opacity: 0.541;
-	left: 40%;
-	position: absolute;
 	width: 223px;
 	height: 2px;
+	display: block;
+	margin: auto;
 }
 
 .dashed_line {
 	border-color: rgb(255, 255, 255);
 	width: 186px;
-	position: absolute;
 	height: 7px;
-	z-index: 248;
-	left: 40%;
+	display: block;
+	margin: auto;
 }
-.message, .message2{
+.message{
 	font-size: 24px;
 	font-family: "ProximaNova";
 	color: rgb(255, 255, 255);
 	line-height: 0.75;
 	text-shadow: 0px 1px 0px rgba(61, 48, 41, 0.004);
-	position: absolute;
-	width: 544px;
-	height: 57px;
-	z-index: 247;
+	text-align: center;
+	line-height: 1.0;
 }
-.message{
-	left: 25%;
-}
-.message2{
-	left: 28%;
-	margin-top: 24px;
 }
 .btn {
 	width: 1600px;
 	height: 4340px;
-	z-index: 254;
 	font-size: 14px;
 	font-family: "Alegreya";
 	color: rgb(255, 255, 255);
 	font-weight: bold;
 	text-transform: uppercase;
 	line-height: 1.714;
-	top: 649.502px;
-	z-index: 253;
+	background: url("../img/btn.jpg");
 }
 .btn {
-	margin-top: 88px;
 	border-width: 1px;
 	border-color: rgb(158, 156, 147);
 	border-style: dashed;
 	background-color: rgba(86, 83, 76, 0.529);
-	position: absolute;
-	left: 40%;
 	width: 198px;
 	height: 48px;
-	z-index: 252;
+	display: block;
+	margin:auto;
+	margin-top:74px;
+	font-size: 14px;
+	font-family: "Alegreya";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.714;
+}
+.bg_shadow {
+	position: absolute;
+	width: 100%;
+	height: 800px;
+}
+
+.divider{
+	width: 120px;
+	position: absolute;
+	bottom: 0;
+	left: calc((100% - 120px) / 2);
+
+}
+.divider img {
+	width: 100%;
+	margin-bottom: -45px;
+}
+
+.nav{
+	background: url("../img/navi_bg.png");
+	width: 100%;
+	height:88px;
+}
+
+.art_cakes{
+	background: url("../img/section2.png");
+	border-top: solid 20px;
+	border-color:#fff;
+}
+.left_content{
+	text-align: center;
+	left: 0;
+}
+.Art_of_cakes{
+	font-size: 65px;
+	font-family: "Alegreya";
+	color: rgb(86, 83, 76);
+	font-weight: bold;
+	line-height: 0.625;
+	margin-top: 50px;
+}
+.we_create_delicious_memories{
+	font-size: 30px;
+	font-family: "Alegreya";
+	color: rgb(171, 145, 85);
+	font-weight: bold;
+	line-height: 0.625;
+	text-align: center;
+}
+.Quisque_rutrum{
+	font-size: 20px;
+	font-family: 'Alegreya', serif;
+	color: rgb(86, 83, 76);
+	margin-top:40px;
+	margin-left:20px;
+
+}
+
+.Chef_Cook {
+	font-size: 24px;
+	font-family: "Alegreya";
+	color: rgb(86, 83, 76);
+	font-weight: bold;
+	line-height: 1.25;
+	text-align: center;
+}
+
+.avatar{
+	/*rgin-left:28%;*/
+	display:block;
+	margin: 0 auto;
+	text-align: center;
+	margin-left: 20%;
+}
+.box1{
+	float: left;
+	margin-left: 5px;
+}
+.box2{
+	float: left;
+}
+.Ellipse {
+	float: left;
+	border-radius: 50%;
+	border: 5px;
+	background-color: rgb(255, 255, 255);
+}
+
+.line {
+	margin-top:20px;
+	background-color: rgb(215, 213, 202);
+	width: 128px;
+}
+
+h4{
+	font-size: 24px;
+	font-family: "Alegreya";
+	color: rgb(86, 83, 76);
+	line-height: 1.25;
+	text-align: center;
+	}
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+.quote {
+	clear: left;
+	margin-top: 40px;
+	margin-left:20%;
+	height: 80px;
+}
+.quote  h6{
+	float: left;
+	font-size: 24px;
+	font-family: 'Great Vibes', cursive;
+	color: rgb(164, 125, 94);
+	line-height: 1.25;
+	text-align: center;
+	margin-top: 40px;
+
 }
 
 
 
+.ghilimele {
+	font-size: 60px;
+	font-family: "Times New Roman";
+	color: rgba(86, 83, 76, 0.502);
+	line-height: 0.5;
+	text-align: center;
+	-moz-transform: matrix( 1,0,0,-1,0,0);
+	-webkit-transform: matrix( 1,0,0,-1,0,0);
+	-ms-transform: matrix( 1,0,0,-1,0,0);
+	float: left;
+	margin-right: 20px;
+	}
+.ghilimele_1{
+	font-size: 60px;
+	font-family: "Times New Roman";
+	color: rgba(86, 83, 76, 0.502);
+	line-height: 0.5;
+	text-align: center;
+	-moz-transform: matrix( 1,0,0,-1,0,0);
+	-webkit-transform: matrix( 1,0,0,-1,0,0);
+	-ms-transform: matrix( 1,0,0,-1,0,0);
+	float: left;
+	margin-top: 60px;
+	margin-left: 20px;
+}
 
+.border {
+	border-width: 3px;
+	border-color: rgb(255, 255, 255);
+	border-style: solid;
+	width: 290px;
+	height: 245px;
+	margin-top:30px;
+	display: block;
+	margin:0 auto;
+}
+
+.img_top_left {
+margin-top: 100px;
+margin-bottom: 20px;
+}
+
+.bgi1{
+	background: url(../img/1.png) no-repeat center;
+	width: 312px;
+	height: 267px;
+	margin-top: 20px;
+	margin-right:5px;
+	margin-bottom: 10px;
+	float: left;
+	padding: 12px;
+
+}
+.bgi2{
+	background: url(../img/bg2.jpg)no-repeat center;
+	width: 312px;
+	height: 267px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	float: left;
+	padding: 12px;
+
+}
+.bgi3{
+	background: url(../img/poza3.jpg) no-repeat center;
+	width: 312px;
+	height: 267px;
+	margin-top: 20px;
+	margin-right:5px;
+	margin-bottom: 10px;
+	float: left;
+	padding: 12px;
+
+}
+.bgi4{
+	background: url(../img/4.png) no-repeat center;
+	width: 312px;
+	height: 267px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	float: left;
+	padding: 12px;
+
+}
+.vector {
+	background: url(../img/Vektor-Smartobjekt.png) no-repeat center;
+	position: absolute;
+	left: 211px;
+	top: 154px;
+	width: 245px;
+	height: 246px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.9;
+}
+.TASTES_SO__GOOD_ {
+	font-size: 30px;
+	font-family: "Alegreya";
+	color: rgb(201, 177, 118);
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+}
+
+
+.section3{
+	background: url(../img/section3/placeholder.png);
+	height: 600px;
+}
+.widget{
+	position: relative;
+	height: 600px;
+}
+.widget_bg {
+	background: url(../img/section3/widget_bg.png);
+	height: 350px;
+	width: 400px;
+	top:100px;
+	position: absolute;
+	z-index: 1;
+}
+
+
+.widget_bg i {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	left: 14px;
+	margin-top: 176px;
+	width: 144px;
+	height: 145px;
+}
+
+.text_bg {
+	position: absolute;
+	width: 413px;
+	height: 350px;
+	top:100px;
+	left: 350px;
+	z-index: 2;
+}
+.text_bg img{
+	width: 100%;
+	height: 100%;
+}
+.text_bg h1{
+	font-size: 35px;
+	color: rgb(86, 83, 76);
+	font-family: "Alegreya";
+	font-weight: bold;
+	line-height: 0.625;
+	text-align: left;
+	position: absolute;
+	left: 86px;
+	top: 24px;
+	z-index: 3;
+}
+.text_bg h4{
+	font-size: 10px;
+	color: rgb(171, 145, 85);
+	font-family: "Alegreya";
+	font-weight: bold;
+	line-height: 0.625;
+	text-align: left;
+	position: absolute;
+	left: 96px;
+	top: 71px;
+	z-index: 4;
+}
+
+.menu {
+	position: absolute;
+	left: 354px;
+	top:267px;
+	width: 14px;
+	height: 15px;
+	z-index: 5;
+}
+.text_bg p{
+	font-size: 14px;
+	font-family: "ProximaNova";
+	color: rgb(86, 83, 76);
+	line-height: 19px;
+	text-align: center;
+	position: absolute;
+	left: 62px;
+	top: 120px;
+	right: 30px;
+	z-index: 6
+}
+.i{
+	position: absolute;
+	z-index: 7;
+	top: 172px;
+	left: 70px;
+	color: #c9b176;
+}
+.ready{
+	background: url(../img/section3/Vektor-Smartobjekt.png) no-repeat center;
+
+	position: absolute;
+	z-index: 8;
+	top:-54px;
+	left: 172px;
+	height: 269px;
+	width: 269px;
+	text-align: center;
+	border:solid #000;
+}
+
+.ready_in_40_mins_Kopie {
+  position: absolute;
+  left: -114px;
+  top: -56px;
+  width: 1831px;
+  height: 4571px;
+  z-index: 188;
+}
+.ready_in_50_mins {
+  font-size: 18px;
+  font-family: "Alegreya";
+  color: rgb(164, 125, 94);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.667;
+  text-align: center;
+  position: absolute;
+  left: 1237.938px;
+  top: 1840.905px;
+  z-index: 187;
+}
+
+/******************reting*************************************************************/
+
+
+/***************************************************************************************/
+.section4{
+	background: url(../img/bgd.png);
+	height: 600px;
+}
+.section5{
+	display: block;
+	margin:auto;
+	height: 600px;
+=======
 
 section{
 	height: 1013px;
+>>>>>>> parent of 75842fd... frwget
 }
 
+
 footer{
+	background: url(../img/footer.png) no-repeat center;
+	c
+
 	height: 1546px;
+
+}
+<<<<<<< HEAD
+=======
+.container{
+	/*width: 1680px;*/
+	margin:0 auto;
+	border:solid #000;
 }
 .nav{
 	background: url("../img/navi_bg.png");
 	width: 100%;
 	height:88px;
 }
+>>>>>>> parent of 75842fd... frwget
