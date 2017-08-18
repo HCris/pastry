@@ -483,17 +483,18 @@ margin-bottom: 20px;
 }
 
 .breakfast h1{
-	font-size: 90px;
+	font-size: 70px;
 }
 .breakfast h3{
 	color: #ccab9a;
 }
 .breakfast h4{
 	color: #dfc691;
-	font-size: 20px;
+	font-size: 40px;
 }
 .breakfast dd{
 	color: #c2beba;
+	font-size: 20px;
 
 }
 
@@ -503,6 +504,9 @@ margin-bottom: 20px;
 	width: 400px;
 	height: 800px;
 	position: relative;
+}
+.breakfast dt {
+	font-size: 40px;
 }
 .bor {
 	width: 100%;

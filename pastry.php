@@ -188,14 +188,14 @@
 						</dl>
 					</div>
 				</div>
-<!---right section--><!---
+<!---right section-->
 				<div class="col col-xs-12 col-md-6">
 					<div class="breakfast_left">
 						<img src="img/section4/border.png" class="bor" alt="">
 						<img src="img/section4/line.png" alt="">
 						<img src="img/section4/Vektor-Smartobjekt.png" alt="">
 					</div>
-				</div>-->
+				</div>
 			</div>
 		</section>
 <!--section4-->
