@@ -308,10 +308,15 @@ margin-bottom: 20px;
 	text-align: center;
 }
 
-
+/***********************************section3*******************************/
 .section3{
-	background: url(../img/section3/placeholder.png);
+	background: url(../img/section3/placeholder.png) no-repeat center center;
 	height: 600px;
+	width: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+
 }
 .widget{
 	position: relative;
@@ -395,7 +400,7 @@ margin-bottom: 20px;
 .i{
 	position: absolute;
 	z-index: 7;
-	top: 172px;
+	top: 200px;
 	left: 70px;
 	color: #c9b176;
 }
@@ -404,9 +409,9 @@ margin-bottom: 20px;
 	position: absolute;
 	z-index: 8;
 	top: -96px;
-	left: 329px;
-	height: 200px;
-	width: 200px;
+	left: 300px;
+	height: 180px;
+	width: 180px;
 	text-align: center;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	font-size: 18px;
@@ -445,54 +450,68 @@ margin-bottom: 20px;
 .img_slaid {
 	width: 60px;
 	height: 60px;
-	top: 260px;
-	left: 300px;
+	top: 250px;
+	left: 137px;
 	box-sizing: border-box;
-	float: left;
+	/* float: left; */
 	position: absolute;
 	z-index: 12;
+	display: flex;
 }
 .buline{
 	position: absolute;
 	left: 200px;
 	top: 317px;
-	width: 1724px;
-	height: 4464px;
 	z-index: 13;
 	color: #d8bba3;
 }
-.breakfast h1{
-	color:white;
-	font-size: 60px;
+/***********************************************end section3***************************/
+/***********************************************section4*******************************/
+.section4{
+	background: url(../img/bgd.png)no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+	height: 600px;
+}
+.breakfast {
 	font-family: "Alegreya";
 	color: rgb(255, 255, 255);
 	font-weight: bold;
 	line-height: 0.5;
 	text-align: center;
+}
+
+.breakfast h1{
+	font-size: 90px;
+}
+.breakfast h3{
+	color: #ccab9a;
+}
+.breakfast h4{
+	color: #dfc691;
+	font-size: 20px;
+}
+.breakfast dd{
+	color: #c2beba;
+
+}
+
+.breakfast_left{
+	background: url(../img/section4/bg.png) no-repeat center center;
+	justify-content: center;
+	width: 400px;
+	height: 800px;
+	position: relative;
+}
+.bor {
+	width: 100%;
+	height: 100%;
 	position: absolute;
+	z-index: 14;
 }
-.Breakfast_7am_Breakfast__we_re_open_ {
-  font-size: 60px;
-  font-family: "Alegreya";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  line-height: 0.5;
-  text-align: center;
-  position: absolute;
-  left: 379.938px;
-  top: 2546.718px;
-  z-index: 138;
-}
-
-
-/******************reting*************************************************************/
-
-
-/***************************************************************************************/
-.section4{
-	background: url(../img/bgd.png);
-	height: 600px;
-}
+.
+/***********************************************end section4***************************/
 .section5{
 	display: block;
 	margin:auto;
@@ -500,15 +519,13 @@ margin-bottom: 20px;
 }
 
 
-footer{
+/*footer{
 	background: url(../img/footer.png) no-repeat center;
 	c
 
 	height: 1546px;
 
 }
-/* <<<<<<< HEAD
-=======
 .container{
 	width: 1680px;
 	margin:0 auto;
@@ -519,4 +536,4 @@ footer{
 	width: 100%;
 	height:88px;
 }
->>>>>>> parent of 75842fd... frwget */
+*/

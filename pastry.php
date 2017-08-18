@@ -122,7 +122,9 @@
 						<h1>Tasty pancakes</h1>
 						<h4> SEASON FAVOURITE</h4>
 						<p>
-							Timp de câteva zile, poliţiştii de patrulare au verificat cum îşi desfăşoară activitatea zilnică a taximetriştilor.
+							Maecenas nec odio et ante tincidunt tempus.
+							Donec vitae sapien ut libero venenatis faucibus.
+							Nullam quls ante. Etiam sit amet orci eget eros faucibus.
 						</p>
 						<div class="i">
 							<i class="fa fa-star" aria-hidden="true"></i>
@@ -169,16 +171,31 @@
 <!--section4-->
 		<section class="section4">
 			<div class="row" style="margin-right:0">
-				<div class="col col-xs-12 col-md-4 col-xs-offset-2 ">
-						<div class="breakfast">
-							<h1>Breakfast</h1>
-							<h3>7 AM BREAKFAST WERE OPEN!</h3>
-							<h3>Full Breakfast</h3>
-							<h3>Toast & jam</h3>
-						</div>
+				<div class="col col-xs-12 col-md-4">
+					<div class="breakfast">
+						<h1>Breakfast</h1>
+						<h3>7 AM BREAKFAST? WE'RE OPEN!</h3>
+						<dl>
+							<dt>Full breakfast</dt>
+								<dd>Duis ut tortor, et risus vulputate pretium</dd>
+								<h4>$12.49</h4>
+							<dt>Toast & jam</dt>
+								<dd>Suspendisse tempus neterdum</dd>
+								<h4>$4.90</h4>
+							<dt>Muffins</dt>
+								<dd>Fusce eget dui sodales est</dd>
+								<h4>$3.95</h4>
+						</dl>
+					</div>
 				</div>
+<!---right section--><!---
 				<div class="col col-xs-12 col-md-6">
-				</div>
+					<div class="breakfast_left">
+						<img src="img/section4/border.png" class="bor" alt="">
+						<img src="img/section4/line.png" alt="">
+						<img src="img/section4/Vektor-Smartobjekt.png" alt="">
+					</div>
+				</div>-->
 			</div>
 		</section>
 <!--section4-->
