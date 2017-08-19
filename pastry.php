@@ -194,6 +194,8 @@
 						<img src="img/section4/border.png" class="border_left" alt="">
 						<img src="img/section4/line.png" class="line_left" alt="">
 						<img src="img/section4/Vektor-Smartobjekt.png" class="emblema" alt="">
+						<img src="img/section4/Vektor.png" class="spic" alt="">
+						<button class="fold">READ</button>
 					</div>
 				</div>
 			</div>
