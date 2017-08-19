@@ -204,9 +204,26 @@
 
 		<footer class="section5">
 			<div class="row" style="margin-right:0">
-				<div class="col">
-				<img src="img/Vektor.png" alt="">
-						<p>drkuyjfui</p>
+				<div class="col col-xs-12 col-md-12">
+					<div class="emblema2">
+						<img src="img/section3/Vektor.png" class="emblema2" alt="">
+						<h1>Say thanks</h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="row" style="margin-right:0">
+				<div class="col col-xs-12 col-md-4">
+					<img src="img/section5/Ellipse 6.png" alt="">
+					<h3>Crediting isn’t required, but is appreciated and allows photographers to gain exposure. Copy the text below or embed a credit badge</h3><br>
+					<img src="img/section5/Ellipse 6 Kopie.png" alt="">
+					<h3>Crediting isn’t required, but is appreciated and allows photographers to gain exposure. Copy the text below or embed a credit badge</h3><br>
+					<img src="img/section5/Ellipse 6 Kopie 2.png" alt="">
+					<h3>Crediting isn’t required, but is appreciated and allows photographers to gain exposure. Copy the text below or embed a credit badge</h3><br>
+				</div>
+
+				<div class="col col-xs-12 col-md-4">
+					<img src="img/section5/img_bg.png" alt="">
 				</div>
 			</div>
 		</footer> 
