@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	font-family: "Alegreya";
 }
 
 header{
@@ -52,7 +53,6 @@ header{
 	width: 1600px;
 	height: 4340px;
 	font-size: 14px;
-	font-family: "Alegreya";
 	color: rgb(255, 255, 255);
 	font-weight: bold;
 	text-transform: uppercase;
@@ -70,7 +70,6 @@ header{
 	margin:auto;
 	margin-top:74px;
 	font-size: 14px;
-	font-family: "Alegreya";
 	color: rgb(255, 255, 255);
 	font-weight: bold;
 	text-transform: uppercase;
@@ -110,7 +109,6 @@ header{
 }
 .Art_of_cakes{
 	font-size: 65px;
-	font-family: "Alegreya";
 	color: rgb(86, 83, 76);
 	font-weight: bold;
 	line-height: 0.625;
@@ -118,7 +116,6 @@ header{
 }
 .we_create_delicious_memories{
 	font-size: 30px;
-	font-family: "Alegreya";
 	color: rgb(171, 145, 85);
 	font-weight: bold;
 	line-height: 0.625;
@@ -126,7 +123,6 @@ header{
 }
 .Quisque_rutrum{
 	font-size: 20px;
-	font-family: 'Alegreya', serif;
 	color: rgb(86, 83, 76);
 	margin-top:40px;
 	margin-left:20px;
@@ -135,7 +131,6 @@ header{
 
 .Chef_Cook {
 	font-size: 24px;
-	font-family: "Alegreya";
 	color: rgb(86, 83, 76);
 	font-weight: bold;
 	line-height: 1.25;
@@ -171,7 +166,6 @@ header{
 
 h4{
 	font-size: 24px;
-	font-family: "Alegreya";
 	color: rgb(86, 83, 76);
 	line-height: 1.25;
 	text-align: center;
@@ -299,7 +293,6 @@ margin-bottom: 20px;
 }
 .TASTES_SO__GOOD_ {
 	font-size: 30px;
-	font-family: "Alegreya";
 	color: rgb(201, 177, 118);
 	text-transform: uppercase;
 	line-height: 1.2;
@@ -353,7 +346,6 @@ margin-bottom: 20px;
 .text_bg h1{
 	font-size: 35px;
 	color: rgb(86, 83, 76);
-	font-family: "Alegreya";
 	font-weight: bold;
 	line-height: 0.625;
 	text-align: left;
@@ -365,7 +357,6 @@ margin-bottom: 20px;
 .text_bg h4{
 	font-size: 10px;
 	color: rgb(171, 145, 85);
-	font-family: "Alegreya";
 	font-weight: bold;
 	line-height: 0.625;
 	text-align: left;
@@ -413,7 +404,6 @@ margin-bottom: 20px;
 	text-align: center;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	font-size: 18px;
-	font-family: "Alegreya";
 	color: rgb(164, 125, 94);
 	font-weight: bold;
 	line-height: 1.667;
@@ -478,7 +468,6 @@ margin-bottom: 20px;
 	height: auto;
 }
 .breakfast {
-	font-family: "Alegreya";
 	color: rgb(255, 255, 255);
 	font-weight: bold;
 	line-height: 0.5;
@@ -562,27 +551,43 @@ margin-bottom: 20px;
 /************************************************ section5 ***************************/
 .section5{
 	background:#f3f1e9;
-	display: block;
-	margin:auto;
 	height: auto;
 }
 .emblema2{
 	text-align: center;
 }
+.emblema2 h1{
+	margin-top: -35px;
+	font-weight: bold;
+}
+
+.emblema2 h5{
+	color: rgb(171, 145, 85);
+	font-weight: bold;
+	line-height: 0.625;
+	text-transform: uppercase;
+}
+.slaid_2{
+	height: auto;
+	text-align: center;
+}
+.slaid_2 h2{
+	color: rgb(164, 125, 94);
+	font-weight: bold;
+	line-height: 1;
+}
+.slaid_2 p{
+	font-family: "ProximaNova";
+	color: rgb(86, 83, 76);
+	line-height: 1.429;
+	text-align: center;
+}
 /************************************************ent section5 ***************************/
 
 
-/*footer{
-	background: url(../img/footer.png) no-repeat center;
-	c
-
-	height: 1546px;
-
-}
-.container{
-	width: 1680px;
-	margin:0 auto;
-	border:solid #000;
+footer{
+	background:#f3f1e9;
+	height: auto;
 }
 .nav{
 	background: url("../img/navi_bg.png");
