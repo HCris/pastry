@@ -191,10 +191,12 @@
 <!---right section-->
 				<div class="col col-xs-12 col-md-6">
 					<div class="breakfast_left">
+						<h5 class="h5_left">Est.</h5>
+						<h5 class="h5_right">1893</h5>
 						<img src="img/section4/border.png" class="border_left" alt="">
 						<img src="img/section4/line.png" class="line_left" alt="">
 						<img src="img/section4/Vektor-Smartobjekt.png" class="emblema" alt="">
-						<h1>Your moning with flair</h1>
+						<h1 class="text-center ">Your moning with flair</h1>
 						<img src="img/section4/Vektor.png" class="spic" alt="">
 						<button class="fold">READ</button>
 					</div>
@@ -229,23 +231,24 @@
 
 				<div class="col col-xs-12 col-sm-12 col-md-8 col-lg-8 ">
 					<img src="img/section5/img_bg.png" class="sandwich" alt="">
+					<button class="btn2"><h5 class="FULL_RECIPE">FULL RECIPE</h5></button>
 				</div>
 			</div>
 		</div>
 	<footer>
 	<div class="container">
 		<div class="row">
-			<div class="col col-md-4 menu_footer">
+			<div class="col col-xs-12 col-md-4 menu_footer">
 				<img src="img/footer/line.png" class="lain_footer" alt="">
 				<a href="#">Our Menu</a> <a href=""> ~</a> 
 				<a href="#">Gallery</a><a href=""> ~</a>
 				<a href="#">Culture</a>
 				<img src="img/footer/line.png" class="lain_footer" alt="">
 			</div>
-			<div class="col col-md-4">
+			<div class="col col-xs-12 col-md-4">
 				<h1 class="text-center Gustoso" >Gustoso</h1>
 			</div>
-			<div class="col col-md-4 menu_footer">
+			<div class="col col-xs-12 col-md-4 menu_footer">
 				<img src="img/footer/line.png" class="lain_footer" alt="">
 				<a href="#">Events</a><a href=""> ~</a>
 				<a href="#">Catering</a><a href=""> ~</a>

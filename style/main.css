@@ -544,6 +544,30 @@ margin-bottom: 20px;
 	background: #f3f2ea;
 	border: #9e9c93 1px solid;
 }
+.breakfast_left h1{
+	color: rgb(164, 125, 94);
+	font-weight: bold;
+	line-height: 1.364;
+	position: absolute;
+	left: 40px;
+	top: 203px;
+	z-index: 18;
+}
+.breakfast_left h5{
+	color: #56534c;
+	font-weight: bold;
+	line-height: 1.364;
+	position: absolute;
+	top: 25px;
+	z-index: 18;
+}
+.h5_right{
+	left: 264px;
+}
+.h5_left{
+	left: 142px;
+}
+
 /***********************************************end section4***************************/
 
 
@@ -585,6 +609,26 @@ margin-bottom: 20px;
 .sandwich{
 	width: 100%;
 }
+.FULL_RECIPE {
+	font-size: 18px;
+	color: rgb(223, 198, 145);
+	font-weight: bold;
+	line-height: 1.667;
+}
+
+.btn2{
+	border-width: 1px;
+	border-color: rgb(223, 198, 145);
+	border-style: dashed;
+	background-color: rgb(255, 255, 255);
+	top: 375px;
+	width: 169px;
+	position: absolute;
+	height: 58px;
+	z-index: 20;
+	left: -20px;
+}
+
 /************************************************ent section5 ***************************/
 
 
