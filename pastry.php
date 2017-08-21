@@ -228,27 +228,32 @@
 				</div>
 
 				<div class="col col-xs-12 col-sm-12 col-md-8 col-lg-8 ">
-					<img src="img/section5/img_bg.png" alt="">
-						<div class="row">
-							<div class="col col-md-1 col-offset-md-11 box1">
-								<h2>dsjhoi</h2>
-							</div>
-						</div>
+					<img src="img/section5/img_bg.png" class="sandwich" alt="">
 				</div>
 			</div>
 		</div>
 	<footer>
+	<div class="container">
 		<div class="row">
-			<div class="col">
-				<img src="img/footer/line.png" alt="">
-				<img src="img/footer/line.png" alt="">
+			<div class="col col-md-4 menu_footer">
+				<img src="img/footer/line.png" class="lain_footer" alt="">
+				<a href="#">Our Menu</a> <a href=""> ~</a> 
+				<a href="#">Gallery</a><a href=""> ~</a>
+				<a href="#">Culture</a>
+				<img src="img/footer/line.png" class="lain_footer" alt="">
 			</div>
-			<div class="col">adsefareqg</div>
-			<div class="col">
-				<img src="img/footer/line.png" alt="">
-				<img src="img/footer/line.png" alt="">
+			<div class="col col-md-4">
+				<h1 class="text-center Gustoso" >Gustoso</h1>
+			</div>
+			<div class="col col-md-4 menu_footer">
+				<img src="img/footer/line.png" class="lain_footer" alt="">
+				<a href="#">Events</a><a href=""> ~</a>
+				<a href="#">Catering</a><a href=""> ~</a>
+				<a href="#">Visit us</a>
+				<img src="img/footer/line.png" class="lain_footer" alt="">
 			</div>
 		</div>
+	</div>
 	</footer>
 	</body>
 </html>

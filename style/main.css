@@ -582,6 +582,9 @@ margin-bottom: 20px;
 	line-height: 1.429;
 	text-align: center;
 }
+.sandwich{
+	width: 100%;
+}
 /************************************************ent section5 ***************************/
 
 
@@ -589,6 +592,25 @@ footer{
 	background:#f3f1e9;
 	height: auto;
 }
+.lain_footer{
+	width: 100%;
+}
+.Gustoso {
+	font-family: "Scriptina";
+	color: rgb(86, 83, 76);
+	line-height: 0.8;
+}
+.menu_footer{
+	text-transform: uppercase;
+	line-height: 1.714;
+	text-decoration: none;
+}
+.menu_footer a{
+	text-decoration: none;
+	color: rgb(86, 83, 76);
+	margin-right: 10px;
+}
+
 .nav{
 	background: url("../img/navi_bg.png");
 	width: 100%;
