@@ -40,7 +40,6 @@ header{
 	margin: auto;
 }
 .message{
-	font-size: 24px;
 	font-family: "ProximaNova";
 	color: rgb(255, 255, 255);
 	line-height: 0.75;
@@ -108,7 +107,6 @@ header{
 }
 .left_content{
 	text-align: center;
-	left: 0;
 }
 .Art_of_cakes{
 	font-size: 65px;
@@ -541,8 +539,10 @@ margin-bottom: 20px;
 .spic{
 	position: absolute;
 	z-index: 17;
-	left: 63%;
-	top: 72%;
+	float: right;
+	top: 77%;
+	left: 55%;
+	width: 214px;
 }
 .fold {
 	position: absolute;
@@ -567,8 +567,7 @@ margin-bottom: 20px;
 	height: auto;
 }
 .emblema2{
-	/*margin-left: 50%;
-	text-align: center;*/
+	text-align: center;
 }
 /************************************************ent section5 ***************************/
 

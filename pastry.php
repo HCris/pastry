@@ -32,9 +32,9 @@
 							<h1 class="title text-center">Pastry with love</h1><br>
 							<img class="line" src="img/line.png" alt=""><br>
 							<img class="dashed_line" src="img/dashed line.png" alt=""><br>
-							<p class="message ">We're briging you fresh ingredients every<br>
-							day in ways you can't resist</p>
-							<button class="btn ">our meneu</button>
+							<h2 class="message ">We're briging you fresh ingredients every<br>
+							day in ways you can't resist</h2>
+							<button class="btn">our meneu</button>
 						</div>
 					</div>
 
@@ -192,6 +192,8 @@
 				<div class="col col-xs-12 col-md-6">
 					<div class="breakfast_left">
 						<img src="img/section4/border.png" class="border_left" alt="">
+						<h1>  The Best Sandwich</h1>
+						<h2>The best sanwuch you're ever tasted!</h2>
 						<img src="img/section4/line.png" class="line_left" alt="">
 						<img src="img/section4/Vektor-Smartobjekt.png" class="emblema" alt="">
 						<img src="img/section4/Vektor.png" class="spic" alt="">
@@ -204,16 +206,16 @@
 
 		<footer class="section5">
 			<div class="row" style="margin-right:0">
-				<div class="col col-xs-12 col-md-12">
+				<div class="col col-xs-12 col-md-12 " >
 					<div class="emblema2">
 						<img src="img/section3/Vektor.png" class="emblema2" alt="">
-						<h1>Say thanks</h1>
+						<h1>Your moning with flair</h1>
 					</div>
 				</div>
 			</div>
 
 			<div class="row" style="margin-right:0">
-				<div class="col col-xs-12 col-md-4">
+				<div class="col col-xs-12 col-md-4 col-sm-12">
 					<img src="img/section5/Ellipse 6.png" alt="">
 					<h3>Crediting isn’t required, but is appreciated and allows photographers to gain exposure. Copy the text below or embed a credit badge</h3><br>
 					<img src="img/section5/Ellipse 6 Kopie.png" alt="">
@@ -222,7 +224,7 @@
 					<h3>Crediting isn’t required, but is appreciated and allows photographers to gain exposure. Copy the text below or embed a credit badge</h3><br>
 				</div>
 
-				<div class="col col-xs-12 col-md-4">
+				<div class="col col-xs-12 col-md-4 col-sm-12">
 					<img src="img/section5/img_bg.png" alt="">
 				</div>
 			</div>
