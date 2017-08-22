@@ -9,17 +9,33 @@
 			<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">'
 		?>
 	 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	 <script>
+		function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
 	</head>
 	<body>
 		<!-- section 1-->
 			<header>
-			<div class="row">
-				<div class="col">
-					<?php 
-						include("component/navbar.php")
-					?>
+				<div class="row">
+					<div class="col col-xs-12 col-md-4">
+						<div id="mySidenav" class="sidenav">
+							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+							<a href="#">Our Menu</a>
+							<a href="#">Gallery</a>
+							<a href="#">Culture</a>
+							<a href="#">Events</a>
+							<a href="#">Catering</a>
+							<a href="#">Visit us</a>
+					</div>
+					<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Gustoso</span>
+					</div>
 				</div>
-			</div>
 				<div class="row" style="margin-right:0">
 					<div class="col col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
 						<div class="top">
