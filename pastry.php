@@ -13,19 +13,13 @@
 	<body>
 		<!-- section 1-->
 			<header>
-				<img class="bg_shadow" src="img/bg_shadow.png">
-				<div class="row" style="margin-right:0">
-					<div class="col col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<div class="nav">
-							<ul>
-								<li>
-									<a href=""></a>
-								</li>
-							</ul>
-						</div>
-					</div>
+			<div class="row">
+				<div class="col">
+					<?php 
+						include("component/navbar.php")
+					?>
 				</div>
-
+			</div>
 				<div class="row" style="margin-right:0">
 					<div class="col col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
 						<div class="top">
