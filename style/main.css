@@ -230,6 +230,8 @@ h4{
 .img_top_left {
 margin-top: 100px;
 margin-bottom: 20px;
+padding-right:0!important;
+padding-left:0 !important;
 }
 
 .bgi1{
@@ -693,5 +695,8 @@ footer{
 @media screen and (max-height: 450px) {
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
+}
+span{
+	color:#bbb1a1;
 }
 
